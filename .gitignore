@@ -3,6 +3,9 @@
 /.idea
 /test
 
+# DEPEDENCIES
+/tensorflow
+
 
 *.class
 
