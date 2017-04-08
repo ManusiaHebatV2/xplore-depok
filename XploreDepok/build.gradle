@@ -21,3 +21,7 @@ allprojects {
 task clean(type: Delete) {
     delete rootProject.buildDir
 }
+
+// TENSORFLOW
+debugCompile project(path: ':tensorflow_inference', configuration: 'debug')
+releaseCompile project(path: ':tensorflow_inference', configuration: 'release')
